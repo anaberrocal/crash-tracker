@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "label": "I-10: NASSAU-I-95 ONRMP",
+            "value": 17
+        },
+        {
+            "label": "I-295/SR 9A",
+            "value": 2
+        },
+        {
+            "label": "I-295/SR 9A GIS ROUTE",
+            "value": 2
+        },
+        {
+            "label": "I-95: ST JOHNS-I-95",
+            "value": 7
+        },
+        {
+            "label": "I-95/US 17/US 90 GIS ROUTE",
+            "value": 10
+        },
+        {
+            "label": "SR 202 GIS ROUTE",
+            "value": 4
+        },
+        {
+            "label": "SR-21",
+            "value": 1
+        },
+        {
+            "label": "SR-9A GIS ROUTE",
+            "value": 2
+        }
+    ]
+}

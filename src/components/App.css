@@ -1,0 +1,35 @@
+.App {
+  background-color: #282c34;
+  color: white;
+}
+
+.header {
+  background-color: #273142;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  font-size: 2em;
+  color: white;
+}
+
+.county {
+  font-size: 1em;
+  font-weight: 150;
+  font-style: oblique;
+}
+
+.icon {
+  width: 3em;
+  height: auto;
+}
+
+.crashIcon {
+  padding: 0;
+  width: 80px;
+  height: 25px;
+}
+
+.crash {
+  cursor: pointer;
+}
