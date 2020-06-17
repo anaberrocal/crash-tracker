@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crash-tracker/static/css/main.bf73dd89.chunk.css",
+    "main.js": "/crash-tracker/static/js/main.602e2ff7.chunk.js",
+    "main.js.map": "/crash-tracker/static/js/main.602e2ff7.chunk.js.map",
+    "runtime-main.js": "/crash-tracker/static/js/runtime-main.26ffcdea.js",
+    "runtime-main.js.map": "/crash-tracker/static/js/runtime-main.26ffcdea.js.map",
+    "static/js/2.1ed6db72.chunk.js": "/crash-tracker/static/js/2.1ed6db72.chunk.js",
+    "static/js/2.1ed6db72.chunk.js.map": "/crash-tracker/static/js/2.1ed6db72.chunk.js.map",
+    "index.html": "/crash-tracker/index.html",
+    "precache-manifest.45b284aa826fae9e261685a429984d3e.js": "/crash-tracker/precache-manifest.45b284aa826fae9e261685a429984d3e.js",
+    "service-worker.js": "/crash-tracker/service-worker.js",
+    "static/css/main.bf73dd89.chunk.css.map": "/crash-tracker/static/css/main.bf73dd89.chunk.css.map",
+    "static/js/2.1ed6db72.chunk.js.LICENSE.txt": "/crash-tracker/static/js/2.1ed6db72.chunk.js.LICENSE.txt",
+    "static/media/crashIconHigh.png": "/crash-tracker/static/media/crashIconHigh.f28522bd.png",
+    "static/media/crashIconLow.png": "/crash-tracker/static/media/crashIconLow.5e53030d.png",
+    "static/media/crashTracker.png": "/crash-tracker/static/media/crashTracker.9d350d49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26ffcdea.js",
+    "static/js/2.1ed6db72.chunk.js",
+    "static/css/main.bf73dd89.chunk.css",
+    "static/js/main.602e2ff7.chunk.js"
+  ]
+}
