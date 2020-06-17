@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import ReactMapGL, { Marker } from 'react-map-gl';
-import uuid from 'uuid';
+import ReactMapGL from 'react-map-gl';
 import crashTracker from './../assets/crashTracker.png';
-import crashIconLow from './../assets/crashIconLow.png';
-import crashIconHigh from './../assets/crashIconHigh.png';
-// import * as predictionsData from "../util/predictions.json";
-// import * as zones from "../util/zones.json";
-import * as actualData from "../util/predictions-actual.json";
+import Predictions from '../util/Predictions';
 
 
 function App() {
@@ -18,38 +13,6 @@ function App() {
     height: "100vh",
     zoom: 12,
   });
-
-const handleMarkers = () => {
-  let solution = [];
-   actualData.data.coordinates.high.forEach(o => {
-  solution.push(o.shape.coordinates.map( c => (
-    <Marker 
-    key={uuid()}
-    latitude = {c[1]}
-    longitude = {c[0]}
-    >
-     <div className="crash">
-      <img src={crashIconHigh} alt="Crash Icon High" className="crashIcon"/>
-      </div>
-    </Marker>
-  )))
-  })
-
-  actualData.data.coordinates.low.forEach(o => {
-    solution.push(o.shape.coordinates.map( c => (
-      <Marker 
-      key={uuid()}
-      latitude = {c[1]}
-      longitude = {c[0]}
-      >
-       <div className="crash">
-        <img src={crashIconLow} alt="Crash Icon Low" className="crashIcon"/>
-        </div>
-      </Marker>
-    )))
-    })
-   return solution
-};
 
   return (
     <div className="App">
@@ -66,7 +29,7 @@ const handleMarkers = () => {
         setViewport(viewport);
       }}
       >
-        {handleMarkers()}
+        <Predictions/>
       </ReactMapGL>
       </div>
     </div>
